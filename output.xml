@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230715 20:01:33.951" rpa="false" schemaversion="4">
+<suite id="s1" name="TC1" source="C:\Users\Niki\PycharmProjects\pythonProject\Demo\automationproject\tace_case\TC1.robot">
+<test id="s1-t1" name="Google" line="8">
+<kw name="Open Browser">
+<arg>https://www.google.com</arg>
+<arg>chrome</arg>
+<msg timestamp="20230715 20:01:33.990" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230715 20:01:33.990" endtime="20230715 20:01:33.990"/>
+</kw>
+<status status="FAIL" starttime="20230715 20:01:33.989" endtime="20230715 20:01:33.990">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20230715 20:01:33.953" endtime="20230715 20:01:33.991"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230715 20:01:33.980" level="ERROR">Error in file 'C:\Users\Niki\PycharmProjects\pythonProject\Demo\automationproject\tace_case\TC1.robot' on line 2: Importing library 'SeleniumLibaray' failed: ModuleNotFoundError: No module named 'SeleniumLibaray'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Niki\PycharmProjects\pythonProject\Demo\venv\Scripts\robot.exe
+  C:\Users\Niki\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\Niki\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\Niki\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\Niki\AppData\Local\Programs\Python\Python311
+  C:\Users\Niki\PycharmProjects\pythonProject\Demo\venv
+  C:\Users\Niki\PycharmProjects\pythonProject\Demo\venv\Lib\site-packages</msg>
+</errors>
+</robot>
